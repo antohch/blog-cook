@@ -9,7 +9,7 @@
 			<div class="post">
 				<h2 class="post-title"><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
                 <div class="postmetadata">Опубликовано в <?php the_category(', ') ?> | <?php the_time('F jS, Y') ?></div>
-                <div class="entry"><?php the_content('[...]'); ?></div>
+                <div class="entry"><?php the_content('[Узнать рецепт...]'); ?></div>
 				<div class="endline"></div>
 				<?php the_tags('<p class="tags"><strong>Теги:</strong> ', ', ', '</p>'); ?>
 				<div class="bookmark"><?php include(TEMPLATEPATH . '/bookmark.php'); ?></div>
